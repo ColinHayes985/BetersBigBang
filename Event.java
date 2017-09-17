@@ -263,4 +263,3 @@ public class Event extends Player {
         }//end of if
     }//end of friendFound method
 }//end event class
-
