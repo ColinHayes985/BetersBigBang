@@ -393,7 +393,7 @@ public class Game {
         }
         // Sets Defense
         String defenseSet = "";
-        choice = JOptionPane.showOptionDialog(null, "If you say so...\n\nWould you like to roll for your STAMINA or just take 25 out of 50?",
+        choice = JOptionPane.showOptionDialog(null, "If you say so...\n\nWould you like to roll for your DEFENSE or just take 25 out of 50?",
                 gameName, 0, JOptionPane.QUESTION_MESSAGE, null, rollor25, null);
         if (choice == 0) {
             defenseSet = "y";
